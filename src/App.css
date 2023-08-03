@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+    height:50px;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+    background-color: papayawhip;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+    .zoom:hover {
+        -ms-transform: scale(1.2); /* IE 9 */
+        -webkit-transform: scale(1.2); /* Safari 3-8 */
+        transform: scale(1.2);
+    }
+
+span {
+    white-space: pre;
+    display: inline-block;
+    transition: transform .1s;
+    cursor: url('miniMagnifier.png'), auto;
+}
+
+    span:hover {
+
+        -ms-transform: scale(1.8); /* IE 9 */
+        -webkit-transform: scale(1.8); /* Safari 3-8 */
+        transform: scale(1.8);
+    }
+
+.float-left {
+    float: left;
+}
