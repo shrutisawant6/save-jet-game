@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Lose from './component/Lose';
 import Won from './component/Won';
-
+import groupApplause from "./assets/animated-small-group-applause.wav"
 
 function App() {
 
@@ -172,6 +172,8 @@ function App() {
 
     function OnClickGameWon() {
         document.getElementById("gameWon").click();
+        var soundAudio = new Audio(groupApplause);
+        soundAudio.play();
     }
 
     if (!show) {
