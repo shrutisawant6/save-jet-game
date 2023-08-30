@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+    text-align: center;
+    background: aliceblue;
 }
 
 .App-logo {
@@ -53,7 +54,6 @@ span {
     white-space: pre;
     display: inline-block;
     transition: transform .1s;
-    cursor: url('miniMagnifier.png'), auto;
 }
 
     span:hover {
@@ -65,4 +65,38 @@ span {
 
 .float-left {
     float: left;
+}
+
+.cloud-circle {
+    width: 180px;
+    height: 180px;
+    background: #000;
+    border-radius: 50%;
+    box-shadow: 200px 200px 50px 0px #fff;
+    color:bisque;
+}
+
+.element {
+    height: 23%;
+    width: 7%;
+    background-image: url(miniPlane.png);
+    background-repeat: no-repeat, no-repeat;
+}
+
+.attack-element {
+    height: 12%;
+    width: 3%;
+    background-image: url(fireball.gif);
+    background-repeat: no-repeat, no-repeat;
+}
+
+.coloured-text {
+    color: lightblue;
+    text-align: center;
+    font-family: Papyrus;
+    text-shadow: 0 0 0.5rem #def;
+}
+
+.horizontal-line {
+    border-top: 6px solid red;
 }

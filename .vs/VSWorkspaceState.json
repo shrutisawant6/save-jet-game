@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\component"
   ],
-  "SelectedNode": "\\src\\reportWebVitals.js",
+  "SelectedNode": "\\src\\component\\Won.jsx",
   "PreviewInSolutionExplorer": false
 }
