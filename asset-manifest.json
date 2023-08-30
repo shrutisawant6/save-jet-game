@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/save-jet-game/static/css/main.c41878e7.css",
+    "main.js": "/save-jet-game/static/js/main.962a22db.js",
+    "static/js/787.28cb0dcd.chunk.js": "/save-jet-game/static/js/787.28cb0dcd.chunk.js",
+    "static/media/fireball.gif": "/save-jet-game/static/media/fireball.bc3dff39335b021e9dfb.gif",
+    "index.html": "/save-jet-game/index.html",
+    "main.c41878e7.css.map": "/save-jet-game/static/css/main.c41878e7.css.map",
+    "main.962a22db.js.map": "/save-jet-game/static/js/main.962a22db.js.map",
+    "787.28cb0dcd.chunk.js.map": "/save-jet-game/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c41878e7.css",
+    "static/js/main.962a22db.js"
+  ]
+}
